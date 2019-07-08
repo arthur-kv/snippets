@@ -16,19 +16,20 @@ e.g. `~/Library/Preferences/WebStorm2019.1/templates`
 | 4  | `l` | `let $VAR1$;`<br>`$END$` |
 | 5  | `le` | `let $VAR1$ = $VAR2$;`<br>`$END$` |
 | 6  | `c` | `const $VAR1$ = $VAR2$;`<br>`$END$` |
-| 7  | `co` | `const $VAR1$ = {`<br>&nbsp;&nbsp;`$VAR2$: $VAR3$,`<br>`}`<br>`$END$` |
-| 8  | `if` | `if ($CONDITION$){`<br>&nbsp;&nbsp;`$BODY$`<br>`} $END$` |
-| 9  | `el` | `else {`<br>&nbsp;&nbsp;`$BODY$`<br>`}`<br>`$END$` |
-| 10 | `eif` | `else if ($CONDITION$){`<br>&nbsp;&nbsp;`$ACTION$`<br>`} $END$` |
+| 7  | `co` | `const $VAR1$ = {`<br>`$VAR2$: $VAR3$,`<br>`}`<br>`$END$` |
+| 8  | `if` | `if ($CONDITION$){`<br>`$BODY$`<br>`}$END$` |
+| 9  | `el` | `else {`<br>`$BODY$`<br>`}`<br>`$END$` |
+| 10 | `eif` | `else if ($CONDITION$){`<br>`$ACTION$`<br>`}$END$` |
 | 11 | `for` | `just a for loop with an empty body` |
 | 12 | `fo` | `just a for of loop with an empty body` |
-| 13 | `fn` | `function $NAME$($ARGUMENTS$) {`<br>&nbsp;&nbsp;`$BODY$`<br>`}`<br>`$END$` |
-| 14 | `afn` | `async function $NAME$($ARGUMENTS$) {`<br>&nbsp;&nbsp;`$BODY$`<br>`}`<br>`$END$` |
+| 13 | `fn` | `function $NAME$($ARGUMENTS$) {`<br>`$BODY$`<br>`}`<br>`$END$` |
+| 14 | `afn` | `async function $NAME$($ARGUMENTS$) {`<br>`$BODY$`<br>`}`<br>`$END$` |
 | 15 | `=` | `($ARGS$) => $RETURNS$` |
-| 16 | `=b` | `($ARGS$) => {`<br>&nbsp;&nbsp;`$BODY$`<br>`}`<br>`$END$`<br> |
-| 17 | `cls` | `class $NAME$ {`<br>&nbsp;&nbsp;`constructor(){}`<br><br>&nbsp;&nbsp;`$BODY$`<br>`}` |
-| 18 | `clsf` | `$NAME$() {`<br>&nbsp;&nbsp;`$BODY$`<br>`}` |
-| 19 | `r` | `return $VAL$;` |
+| 16 | `=b` | `($ARGS$) => {`<br>`$BODY$`<br>`}`<br>`$END$`<br> |
+| 17 | `a=b` | `async ($ARGS$) => {`<br>`$BODY$`<br>`}`<br>`$END$`<br> |
+| 18 | `cls` | `class $NAME$ {`<br>`constructor(){}`<br><br>`$BODY$`<br>`}` |
+| 19 | `clsf` | `$NAME$() {`<br>`$BODY$`<br>`}` |
+| 20 | `r` | `return $VAL$;` |
 
 
 
